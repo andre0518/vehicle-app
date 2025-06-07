@@ -1,28 +1,55 @@
-# vehicle-app
-# Proyecto 7 – Dashboard con Streamlit
+# Proyecto 7 – Dashboard interactivo con Streamlit
 
-Este proyecto forma parte del bootcamp de Data Scientist. El objetivo es construir un panel interactivo usando **Streamlit** para explorar un conjunto de datos de anuncios de autos en Estados Unidos.
+Este proyecto forma parte del Bootcamp de Data Science. Consiste en la creación de una aplicación web desarrollada con **Streamlit** que permite explorar de forma interactiva un conjunto de datos de anuncios de vehículos en Estados Unidos.
 
-## Dataset
+**App desplegada en Render**: [vehicle-app-scf1.onrender.com](https://vehicle-app-scf1.onrender.com)
 
-El dataset `vehicles_us.csv` contiene información como:
-- Tipo de vehículo
+---
+
+## Descripción del proyecto
+
+La aplicación permite:
+
+- Visualizar los primeros registros del conjunto de datos
+- Filtrar vehículos por tipo (SUV, sedan, pickup, etc.)
+- Consultar el número total de registros filtrados
+- Explorar la **distribución de precios** con un histograma (opcional mediante casilla)
+- Visualizar un gráfico de dispersión de **precio vs año del modelo**
+
+Los gráficos se generan usando **Plotly**, lo que permite una experiencia interactiva (zoom, hover, selección).
+
+---
+
+## Dataset utilizado
+
+El dataset `vehicles_us.csv` contiene información real de anuncios de venta de autos, incluyendo:
+
 - Precio
-- Año de fabricación
-- Estado del vehículo
-- Consumo de combustible
+- Año del modelo
+- Tipo de vehículo
+- Estado (condición)
 - Número de cilindros
+- Tipo de transmisión
+- Kilometraje (odómetro)
+- Tipo de combustible
 
-## Análisis Exploratorio
+---
 
-- Se realizó un análisis univariado y bivariado de las variables más relevantes.
-- Se identificaron patrones de precio según tipo de vehículo, año y condición.
-- El notebook se encuentra en: `notebooks/EDA.ipynb`.
+## Tecnologías utilizadas
 
-## Tecnologías
-
-- Python 3.10
-- Pandas
-- Matplotlib / Seaborn
+- Python
 - Streamlit
-- VS Code
+- Pandas
+- Plotly Express
+- Git y GitHub
+- Render (para despliegue en la web)
+
+---
+
+## Cómo ejecutar la app localmente
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/andre0518/vehicle-app.git
+cd vehicle-app
