@@ -30,7 +30,7 @@ if st.checkbox("Mostrar cantidad de registros"):
 
 # Casilla de verificación para construir histograma
 if st.checkbox('Construir un histograma'):
-    st.subheader("Distribución de precios (interactivo)")
+    st.subheader("Distribución de precios")
     fig1 = px.histogram(
         df_filtrado,
         x="price",
@@ -41,7 +41,7 @@ if st.checkbox('Construir un histograma'):
     st.plotly_chart(fig1, use_container_width=True)
 
 # Gráfico de dispersión siempre visible
-st.subheader("Precio vs Año del Modelo (interactivo)")
+st.subheader("Precio vs Año del Modelo")
 fig2 = px.scatter(
     df_filtrado,
     x="model_year",
