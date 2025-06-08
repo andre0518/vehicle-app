@@ -2,7 +2,7 @@
 
 Este proyecto forma parte del Bootcamp de Data Science. Consiste en la creación de una aplicación web desarrollada con Streamlit que permite explorar de forma interactiva un conjunto de datos de anuncios de vehículos en Estados Unidos.
 
-**App desplegada en Render:** https://vehicle-app-sc1.onrender.com
+**App desplegada en Render:** https://vehicle-app-sc11.onrender.com
 
 ## Descripción del proyecto
 
