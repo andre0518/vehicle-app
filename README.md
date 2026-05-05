@@ -82,8 +82,9 @@ cd vehicle-app
 pip install -r requirements.txt
 streamlit run app.py
 
-👩‍💻 Autora
+---
 
+👩‍💻 Autora
 Andreina Moreno
-🔗 https://www.linkedin.com/in/andreina-moreno-franco
-🔗 https://github.com/andre0518
+LinkedIn
+GitHub
