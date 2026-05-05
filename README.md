@@ -84,7 +84,9 @@ streamlit run app.py
 ```
 ---
 
-👩‍💻 Autora
-Andreina Moreno
-LinkedIn
-GitHub
+## 👩‍💻 Autora
+
+**Andreina Moreno**  
+[LinkedIn](https://www.linkedin.com/in/andreina-moreno-franco)  
+[GitHub](https://github.com/andre0518)
+
