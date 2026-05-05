@@ -1,47 +1,89 @@
-# Proyecto 7 – Dashboard interactivo con Streamlit
+# 🚗 Dashboard de Análisis de Vehículos con Streamlit
 
-Este proyecto forma parte del Bootcamp de Data Science. Consiste en la creación de una aplicación web desarrollada con Streamlit que permite explorar de forma interactiva un conjunto de datos de anuncios de vehículos en Estados Unidos.
+**App en vivo:** https://vehicle-app-sc11.onrender.com  
 
-**App desplegada en Render:** https://vehicle-app-sc11.onrender.com
+---
 
-## Descripción del proyecto
+## 📌 Descripción
 
-La aplicación permite:
+Este proyecto consiste en el desarrollo de una aplicación web interactiva utilizando Streamlit para explorar y analizar datos de anuncios de vehículos en Estados Unidos.
 
-- Visualizar los primeros registros del conjunto de datos
-- Filtrar vehículos por tipo (SUV, sedan, pickup, etc.)
-- Consultar el número total de registros filtrados
-- Explorar la distribución de precios con un histograma (opcional mediante casilla)
-- Visualizar un gráfico de dispersión de precio vs año del modelo
+La aplicación permite visualizar datos de forma dinámica, facilitando el análisis exploratorio y la toma de decisiones basada en información real.
 
-Los gráficos se generan usando Plotly, lo que permite una experiencia interactiva (zoom, hover, selección).
+---
 
-## Dataset utilizado
+## 🎯 Objetivo
 
-El dataset `vehicles_us.csv` contiene información real de anuncios de venta de autos, incluyendo:
+- Analizar datos de vehículos en venta
+- Identificar patrones en precios y características
+- Crear una herramienta interactiva para usuarios no técnicos
 
-- Precio
-- Año del modelo
-- Tipo de vehículo
-- Estado (condición)
-- Número de cilindros
-- Tipo de transmisión
-- Kilometraje (odómetro)
-- Tipo de combustible
+---
 
-## Tecnologías utilizadas
+## ⚙️ Funcionalidades
 
-- Python
-- Streamlit
-- Pandas
-- Plotly Express
-- Git y GitHub
-- Render (para despliegue en la web)
+- Visualización de registros del dataset  
+- Filtro de vehículos por tipo (SUV, sedan, pickup, etc.)  
+- Conteo dinámico de registros filtrados  
+- Histograma de precios (activable por el usuario)  
+- Gráfico de dispersión: precio vs año del modelo  
 
-## Cómo ejecutar la app localmente
+---
 
-Clona este repositorio:
+## 📊 Tecnologías utilizadas
+
+- Python  
+- Streamlit  
+- Pandas  
+- Plotly Express  
+- Git y GitHub  
+- Render (deploy)  
+
+---
+
+## 🧠 Habilidades demostradas
+
+- Desarrollo de aplicaciones web con Streamlit  
+- Análisis exploratorio de datos (EDA)  
+- Visualización de datos interactiva  
+- Transformación y limpieza de datos  
+- Comunicación de insights  
+
+---
+
+## 💼 Impacto de negocio
+
+- Facilita la exploración de datos para detectar tendencias de precios  
+- Permite identificar oportunidades en el mercado automotriz  
+- Mejora la toma de decisiones basada en datos  
+
+---
+
+## 📂 Dataset
+
+El dataset `vehicles_us.csv` contiene información sobre anuncios de venta de vehículos, incluyendo:
+
+- Precio  
+- Año del modelo  
+- Tipo de vehículo  
+- Condición  
+- Número de cilindros  
+- Tipo de transmisión  
+- Kilometraje  
+- Tipo de combustible  
+
+---
+
+## ▶️ Cómo ejecutar localmente
 
 ```bash
 git clone https://github.com/andre0518/vehicle-app.git
 cd vehicle-app
+pip install -r requirements.txt
+streamlit run app.py
+
+👩‍💻 Autora
+
+Andreina Moreno
+🔗 https://www.linkedin.com/in/andreina-moreno-franco
+🔗 https://github.com/andre0518
