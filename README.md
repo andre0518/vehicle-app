@@ -81,7 +81,7 @@ git clone https://github.com/andre0518/vehicle-app.git
 cd vehicle-app
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 👩‍💻 Autora
